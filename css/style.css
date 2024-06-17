@@ -22,6 +22,7 @@ li {
 
 header {
     text-align: center;
+    padding: 30px;
 }
 
 .title {
@@ -39,10 +40,36 @@ header {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.col {
+    border: solid rgb(186, 186, 186) 1px;
 }
 
 .img {
     height: 400px;
     display: inline-block;
-    padding: 5px;
+}
+
+.brand-img {
+    font-size: 10px;
+    color: rgb(16, 16, 16);
+}
+
+.description-img {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.prize-img {
+    font-size: 10px;
+    color: red;
+    font-weight: 600;
+}
+
+.sale-img {
+    color: black;
+    text-decoration: line-through;
 }
